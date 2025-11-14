@@ -4,6 +4,7 @@
 
 Still under development, if you are seeing this I am still developing it as best as I can
 
+Actually, this is just for personal use, but there might be someone out there who wants to try it.
 ---
 
 ##  About the Project
