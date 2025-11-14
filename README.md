@@ -1,6 +1,7 @@
 # EC App Control ESP32 
 
 **App for controlling IoT devices** | Easily control your IoT devices (ESP32, Arduino, etc.) from the desktop using an Electron app.
+Still under development, if you are seeing this I am still developing it as best as I can
 
 ---
 
@@ -12,7 +13,6 @@ The app supports communication via **MQTT** (recommended) or HTTP API for real-t
 
 ### Key Features
 
-* **Device Control:** Send ON/OFF commands or trigger specific actions to microcontrollers.
 * **Dynamic Configuration:** Allows entering IP/MQTT broker address and API Key via a form.
 * **Multi-Platform:** Runs on Windows, Linux.
 
