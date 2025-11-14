@@ -1,6 +1,7 @@
 # EC App Control ESP32 
 
 **App for controlling IoT devices** | Easily control your IoT devices (ESP32, Arduino, etc.) from the desktop using an Electron app.
+
 Still under development, if you are seeing this I am still developing it as best as I can
 
 ---
@@ -68,6 +69,6 @@ The build output will be available in the `dist/` directory.
 
 This project is released under the MIT License.
 **Author:** alhazera25  
-See the `LICENSE` file for full details.  
+See the <a href="./licence.txt">`LICENSE`</a> file for full details.  
 © 2025 alhazera25
 
