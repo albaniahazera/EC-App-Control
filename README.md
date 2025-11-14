@@ -38,7 +38,7 @@ Follow the steps below to run the app in development mode.
 ### 1. Clone the repository
 
 ```bash
-git clone https://www.andarepository.com/
+git clone https://github.com/albaniahazera/EC-App-Control.git
 cd ec-app
 ```
 
@@ -67,7 +67,7 @@ The build output will be available in the `dist/` directory.
 ## License
 
 This project is released under the MIT License.
-* **Author:** alhazera25  
+**Author:** alhazera25  
 See the `LICENSE` file for full details.  
 © 2025 alhazera25
 
