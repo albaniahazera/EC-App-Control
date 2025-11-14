@@ -1,0 +1,56 @@
+{
+  "name": "ec-app",
+  "version": "1.0.0",
+  "description": "App for control IOT Device's",
+  "keywords": [
+    "esp32",
+    "micro",
+    "controller",
+    "electron",
+    "js"
+  ],
+  "license": "MIT",
+  "author": "alhazera25",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electronmon .",
+    "build": "electron-builder --win",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "electron": "^39.1.2",
+    "electron-builder": "^24.9.1",
+    "electronmon": "^2.0.4"
+  },
+  "build": {
+    "appId": "id.my.alhazera25.ec-app",
+    "productName": "EC App",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ]
+    }
+  },
+  "files": [
+    "main.js",
+    "renderer.js",
+    "index.html",
+    "index.css",
+    "package.json",
+    "assets/**/*",
+    "node_modules/**/*",
+    "resources/**/*",
+    "scripts/**/*",
+
+    "!**/*.map",
+    "!.git/**/*",
+    "!.*",
+    "!docs/**/*",
+    "!test/**/*",
+    "!tmp/**/*"
+  ]
+}
