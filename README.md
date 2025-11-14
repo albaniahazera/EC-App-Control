@@ -68,7 +68,10 @@ The build output will be available in the `dist/` directory.
 ## License
 
 This project is released under the MIT License.
-**Author:** alhazera25  
+
+**Author:** alhazera25
+
 See the <a href="./licence.txt">`LICENSE`</a> file for full details.  
+
 © 2025 alhazera25
 
