@@ -14,7 +14,7 @@ The app supports communication via **MQTT** (recommended) or HTTP API for real-t
 
 * **Device Control:** Send ON/OFF commands or trigger specific actions to microcontrollers.
 * **Dynamic Configuration:** Allows entering IP/MQTT broker address and API Key via a form.
-* **Multi-Platform:** Runs on Windows, Linux, and macOS.
+* **Multi-Platform:** Runs on Windows, Linux.
 
 ---
 
@@ -41,3 +41,33 @@ Follow the steps below to run the app in development mode.
 git clone https://www.andarepository.com/
 cd ec-app
 ```
+
+### 2. Install Dependencies
+
+Install all required Node.js packages:
+```bash
+npm install
+```
+
+### 3. Running the Application
+
+Run the application in development mode. This command uses `electronmon` for live-reload.
+```bash
+npm start
+```
+
+## Build Application (Production)
+
+To create a distributable installer (e.g., `.exe` for Windows), use the following build command:
+```bash
+npm run build
+```
+The build output will be available in the `dist/` directory.
+
+## License
+
+This project is released under the MIT License.
+* **Author:** alhazera25  
+See the `LICENSE` file for full details.  
+© 2025 alhazera25
+
